@@ -11,9 +11,9 @@
 <!--  ----------------------------------------------------------------------  -->
 
 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-<input type="hidden" name="oid" value="00Dfo000003qTyf">
-<input type="hidden" name="retURL" value="https://autorescueapp.com/thank-you.html">
 
+<input type=hidden name="oid" value="00Dfo000003qTyf">
+<input type=hidden name="retURL" value="https://autorescueapp.com/thank-you.html">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -25,8 +25,6 @@
 
 <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
 
-  <input id="lead_source" type= hidden name="lead_source" value="Web Form" size="5" >
-
 <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
 
 <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
@@ -35,20 +33,7 @@
 
 <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
 
-  Position:<select  id="00Nfo000002es05" name="00Nfo000002es05" title="Position"><option value="">--None--</option>
-    <option value="Captain">Captain</option>
-    <option value="Chief">Chief</option>
-    <option value="Lieutenant">Lieutenant</option>
-    <option value="District Manager">District Manager</option>
-    <option value="Firefighter">Firefighter</option>
-    <option value="Safety Officer">Safety Officer</option>
-    <option value="Engineer">Engineer</option>
-    <option value="Tow Operator">Tow Operator</option>
-    <option value="Law Enforcement">Law Enforcement</option>
-    <option value="Collision or Service Center">Collision or Service Center</option>
-    <option value="City manager">City manager</option>
-    <option value="Other">Other</option>
-</select><br>
+Other Position:<input  id="00Nfo000002m21Z" maxlength="255" name="00Nfo000002m21Z" size="20" type="text" /><br>
 
 <label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
 
@@ -126,7 +111,7 @@ Install in windows device?:<select  id="00Nfo000002f8YL" name="00Nfo000002f8YL" 
 <option value="No">No</option>
 </select><br>
 
-  How many devices?:<select  id="00Nfo000002f9PZ" name="00Nfo000002f9PZ" title="How many devices?"><option value="">--None--</option><option value="1">1</option>
+How many devices?:<select  id="00Nfo000002f9PZ" name="00Nfo000002f9PZ" title="How many devices?"><option value="">--None--</option><option value="1">1</option>
 <option value="2">2</option>
 <option value="3">3</option>
 <option value="4">4</option>
@@ -328,12 +313,12 @@ Install in windows device?:<select  id="00Nfo000002f8YL" name="00Nfo000002f8YL" 
 <option value="200">200</option>
 <option value="200+">200+</option>
 </select><br>
-  
+
 Inquiring about multiple licenses?:<select  id="00Nfo000002f9W1" name="00Nfo000002f9W1" title="Inquiring about multiple licenses?"><option value="">--None--</option><option value="Yes">Yes</option>
 <option value="No">No</option>
 </select><br>
 
-  How many licenses:<select  id="00Nfo000002f9Xd" name="00Nfo000002f9Xd" title="How many licenses"><option value="">--None--</option><option value="1">1</option>
+How many licenses:<select  id="00Nfo000002f9Xd" name="00Nfo000002f9Xd" title="How many licenses"><option value="">--None--</option><option value="1">1</option>
 <option value="2">2</option>
 <option value="3">3</option>
 <option value="4">4</option>
@@ -535,7 +520,7 @@ Inquiring about multiple licenses?:<select  id="00Nfo000002f9W1" name="00Nfo0000
 <option value="200">200</option>
 <option value="200+">200+</option>
 </select><br>
-  
+
 <label for="description">Description</label><textarea name="description"></textarea><br>
 
 <input type="submit" name="submit">
